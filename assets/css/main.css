@@ -56,6 +56,36 @@ h6 {
   font-family: var(--font-primary);
 }
 
+img-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  height: 400px;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url('assets/img/office/10.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.image-container h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 2em;
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -929,6 +959,20 @@ section {
 }
 
 /*--------------------------------------------------------------
+# About Technology Section
+--------------------------------------------------------------*/
+.techno {
+  height: 500px;
+  width: auto;
+
+  background: linear-gradient(#0F79BE);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+/*--------------------------------------------------------------
 # Our Services Section
 --------------------------------------------------------------*/
 .services {
@@ -1157,6 +1201,9 @@ section {
   transition: 0.3s;
   position: relative;
   z-index: 1;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
