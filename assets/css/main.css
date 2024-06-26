@@ -67,7 +67,7 @@ img-body {
   font-family: Arial, sans-serif;
 }
 
-.image-container {
+/* .image-container {
   position: relative;
   width: 80%;
   max-width: 800px;
@@ -84,7 +84,7 @@ img-body {
   position: relative;
   z-index: 1;
   font-size: 2em;
-}
+} */
 
 /*--------------------------------------------------------------
 # Sections & Section Header
@@ -102,7 +102,8 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .section-header h2 {
@@ -129,6 +130,7 @@ section {
 .section-header p {
   margin-bottom: 0;
   color: #6f6f6f;
+
 }
 
 /*--------------------------------------------------------------
@@ -654,7 +656,7 @@ section {
 
 .about .call-us h4 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 5px;
 }
 
@@ -805,7 +807,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  padding: 40px 0;
+  padding: 40px 250px;
 }
 
 .stats-counter .stats-item {
